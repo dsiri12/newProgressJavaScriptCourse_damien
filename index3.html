@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<!-- title of webpage -->
+<h2>Demo JavaScript in Body</h2>
+
+<!-- the p element with its id called demo that contains text that says "A Paragraph." -->
+<p id="demo">A Paragraph.</p>
+
+<!-- button called "Try it" that contains an onclick that equals to the myFunction function that can be clicked on and change the p element's text that says "A Paragraph." into the text inside of the myFunction function that says "Paragraph changed."-->
+<button type="button" onclick="myFunction()">Try it</button>
+
+<script>
+
+// the myFunction function that is inside of both opening and closing script tags
+function myFunction() {
+
+  // line of code in particular inside of the myFunction function that gathers the p element's id called demo that contains an innerHTML property that would equal to the text that says "Paragraph changed."
+  document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+</script>
+
+</body>
+</html>
